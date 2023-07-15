@@ -1,0 +1,21 @@
+.lists li{
+    list-style: none;
+}
+
+*{
+    line-height: 1.5;
+    background-color: lightblue;
+}
+
+.links * {
+    text-decoration: none;
+    text-shadow: black;
+    }
+
+* {
+    text-align: center;
+    
+}
+li {
+    text-align: left;
+}
