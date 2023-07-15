@@ -1,21 +1,34 @@
-.lists li{
-    list-style: none;
+img {
+    width: 300px;
+    height: auto;
+    padding: 0px;
+    
 }
 
-*{
+html {
+    text-align: center;
     line-height: 1.5;
     background-color: lightblue;
 }
 
+.button {
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+
 .links * {
     text-decoration: none;
-    text-shadow: black;
-    }
+    color: white;
+        }
 
-* {
-    text-align: center;
-    
+.goodfood {
+    color: blueviolet;
 }
-li {
-    text-align: left;
-}
+
+
+
