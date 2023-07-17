@@ -1,34 +1,53 @@
-img {
-    width: 300px;
-    height: auto;
-    padding: 0px;
-    
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-html {
-    text-align: center;
-    line-height: 1.5;
-    background-color: lightblue;
+img {
+    
+    width: 400px;
+    
+   }
+
+
+
+body {
+    background-color: lightskyblue;
 }
+
+.container {
+    display: box;
+    margin: 20px auto;
+    margin: 20px auto;
+    background-color: gray;
+    width: 75%;
+    height: fit-content;
+    box-shadow: 2px 2px 4px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px;
+   }
 
 .button {
-    margin-bottom: 20px;
     background-color: black;
-}
-
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px black;
+    }
+    
 ul li {
     list-style: none;
 }
 
-
-.links * {
-    text-decoration: none;
-    color: white;
-        }
-
-.goodfood {
-    color: blueviolet;
-}
-
-
-
+ol {
+    list-style-position: inside;
+   }
